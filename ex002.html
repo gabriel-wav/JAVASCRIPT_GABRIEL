@@ -1,0 +1,42 @@
+<html lang="pt-br">
+  <head>
+    <title>EXERCÍCIO 1 - JAVASCRIPT</title>
+    <meta charset="UTF-8" />
+
+    <style>
+      /* comentario em css */
+      body {
+        background-color: #000;
+        font: normal 20pt arial;
+        color: white;
+      }
+
+      h1 {
+        color: purple;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- comentario em html -->
+    <h1>Olá Mundo!</h1>
+    <p>Primeiros comandos JS na Página!!</p>
+
+    <script>
+      /* comentario em JS
+         faça um programa que pede: nome, idade e cpf do usuario;
+         após o usuario entrar com as 3 infos, mostre uma mensagem informando os dados organizados, exemplo:
+        
+      nome: fulano;
+      idade: 90;
+      CPF: 1243567;*/
+
+      var nome = window.prompt("Digite seu Nome");
+      var idade = window.prompt("Digite seu Idade");
+      var CPF = window.prompt("Digite seu CPF");
+
+      window.alert("Olá " + nome + " de " + idade + " anos " + "portador do CPF " + CPF);
+
+</script>
+  </body>
+</html>
