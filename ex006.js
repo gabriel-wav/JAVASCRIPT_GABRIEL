@@ -7,7 +7,7 @@ let horario = prompt("É manhã, tarde, noite ou madrugada? ").toLowerCase();  /
 
 console.log(nome, horario);
 
-// 2º passo: Usar o operador "ou" (||) para verificar as condições de saudação
+// 2º passo: Usar o operador "ou" (||) para verificar as condições de saudação ok
 if (horario === "manha" || horario === "tarde" || horario === "noite" || horario === "madrugada") {
 
     if (horario === "manha") {
